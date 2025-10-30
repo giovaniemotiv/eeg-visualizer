@@ -1,11 +1,10 @@
 # Include documentation
 include README.md
 include LICENSE
-include PROJECT_SUMMARY.md
-recursive-include docs *.md *.rst *.txt
+recursive-include docs *.md
 
 # Include examples
-recursive-include examples *.md *.py *.csv *.json
+recursive-include examples *.md *.csv *.json
 exclude examples/*.edf
 exclude examples/*.bdf
 
