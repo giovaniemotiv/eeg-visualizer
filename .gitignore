@@ -1,0 +1,291 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# EEG/Neuroscience specific files
+*.edf
+*.EDF
+*.bdf
+*.BDF
+*.fif
+*.set
+*.cnt
+*.vhdr
+*.vmrk
+*.eeg
+*.mat
+*.h5
+*.hdf5
+
+# Large data files
+*.gz
+*.zip
+*.tar
+*.7z
+*.rar
+
+# Temporary data directories
+temp_data/
+tmp/
+cache/
+.cache/
+
+# Streamlit specific
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows specific
+*.lnk
+desktop.ini
+
+# MNE-Python cache and config
+.mne/
+mne_data/
+
+# Matplotlib cache
+.matplotlib/
+
+# Conda environment files (optional)
+environment.yml.lock
+
+# Output files and exports
+outputs/
+exports/
+results/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.eps
+
+# CSV export files (keep examples, ignore generated)
+*_export.csv
+*_results.csv
+*_bandpower.csv
+
+# Log files
+*.log
+logs/
+debug.log
+error.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Local configuration
+local_config.py
+config_local.py
+
+# Documentation build
+docs/build/
+docs/_build/
+
+# Sample data (keep small examples, ignore large files)
+examples/data/*.edf
+examples/data/*.bdf
+examples/data/*.fif
+!examples/sample_*.edf
+!examples/demo_*.edf
+
+# User uploads directory
+user_uploads/
+uploads/
+
+# Performance profiling
+*.prof
+
+# Memory dumps
+*.dump
+
+# Jupyter notebook outputs (keep documentation notebooks)
+*.ipynb
+!docs/*.ipynb
+!examples/*.ipynb
+
+# Virtual environments
+.conda/
+conda-meta/
+
+# Package manager files
+yarn.lock
+package-lock.json
+npm-debug.log*
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Tox testing
+.tox/
+
+# Documentation
+docs/api/
+
+# Local development
+dev_notes.md
+TODO.md
+NOTES.md
+
+# Temporary test files
+test_*.edf
+test_*.csv
+test_*.json
+debug_*.py
+
+# Application specific temporary files
+session_state.json
+app_cache/
+streamlit_cache/
