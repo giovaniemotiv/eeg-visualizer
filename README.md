@@ -23,7 +23,7 @@ A web-based EEG analysis tool built with MNE-Python and Streamlit.
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/eeg-visualizer.git
+git clone https://github.com/giovaniemotiv/eeg-visualizer.git
 cd eeg-visualizer
 pip install -e src/
 ```
